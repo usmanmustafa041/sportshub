@@ -1,0 +1,162 @@
+/* General Styling */
+body {
+    background: #0b2b17;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 80px;
+    text-align: center;
+}
+nav img{
+    width: 100%;
+    height: 70px;
+}
+
+/* Navbar */
+nav {
+    background: #1a4d2a;
+    padding:0;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+.nav-links a:hover {
+    color: #00ff2a;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right , #c2c5c3, #1a4d2a);
+    padding: 8rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    background: #a8ff78;
+    color: #1a4d2a;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 5%;
+    background: #072313;
+}
+
+.feature-card {
+    background: #143d23;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.feature-card img {
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+
+}
+
+.feature-card h2 {
+    color: #a8ff78;
+    margin-top: 50px;
+}
+
+.feature-card p {
+    margin-top: 50px;
+    color: #d1ffd8;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #143d23;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.form-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-group input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    min-height: 120px;
+    margin-bottom: 1rem;
+}
+
+button {
+    background: #a8ff78;
+    color: #1a4d2a;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    background: #a8ff78;
+    color: #1a4d2a;
+    padding: 1.5rem;
+    font-size: 1rem;
+}
